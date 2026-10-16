@@ -1,0 +1,14 @@
+# Salida de compilación de Java
+*.class
+
+# Datos generados en tiempo de ejecución (grafos guardados por el usuario)
+grafos/
+
+# Archivos de IDE / editores
+.idea/
+*.iml
+.vscode/
+nbproject/
+build/
+dist/
+out/
