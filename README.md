@@ -1,8 +1,8 @@
-# 📊 Editor de Grafos - Estructura de Datos y sus Aplicaciones
+# Editor de Grafos - Estructura de Datos y sus Aplicaciones
 
 Aplicación de escritorio desarrollada en **Java (Swing)** para crear, editar, visualizar y analizar **grafos no dirigidos y ponderados**, y ejecutar los algoritmos clásicos de teoría de grafos: Kruskal, Prim, Dijkstra y Floyd-Warshall.
 
-## 🚀 Características Principales
+##  Características Principales
 
 - **Creación gráfica interactiva:** agregar, mover (arrastrando con el ratón) y eliminar nodos y aristas. Cada nodo se identifica con un código único y editable (A, B, C...). Límite de **20 vértices**.
 - **Grafos ponderados:** cada arista tiene un **peso entero ≥ 0** que representa distancias, tiempos o costos.
@@ -20,7 +20,7 @@ Aplicación de escritorio desarrollada en **Java (Swing)** para crear, editar, v
   - **Floyd-Warshall:** caminos mínimos entre todos los pares de vértices.
 - Los resultados de cada algoritmo se muestran en una **ventana de texto**.
 
-## 🏗️ Estructura del proyecto
+##  Estructura del proyecto
 
 El código está dividido en dos clases (ambas en el paquete por defecto):
 
@@ -29,7 +29,7 @@ El código está dividido en dos clases (ambas en el paquete por defecto):
 
 > `Principal` usa `RedComunicacion` como modelo de datos; **ambas clases deben estar presentes** para compilar.
 
-## 🛠️ Requisitos y Ejecución
+##  Requisitos y Ejecución
 
 - **Lenguaje:** Java (JDK 17 o superior; probado con JDK 21).
 - **Interfaz gráfica:** Swing (incluido en el JDK; no requiere JavaFX ni dependencias externas).
@@ -42,7 +42,7 @@ El código está dividido en dos clases (ambas en el paquete por defecto):
 
   También se puede abrir el proyecto en un IDE (IntelliJ IDEA, Eclipse o NetBeans) y ejecutar la clase principal **`Principal`**.
 
-## ⚠️ Notas y limitaciones
+##  Notas y limitaciones
 
 - Solo se admiten **grafos no dirigidos**: la matriz de adyacencia debe ser simétrica y (A,B) equivale a (B,A).
 - Los **colores** de nodos y aristas se guardan únicamente en memoria durante la sesión (no se persisten en el archivo).
